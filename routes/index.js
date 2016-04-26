@@ -7,9 +7,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Quiz', github:'<a href="https://github.com/davideandres95/quiz2">Proyecto en github</a>'});
 });
 
-<<<<<<< HEAD
-
-=======
 router.get('/author', function(req, res, next){
 	res.render('author', { github:'<a href="https://github.com/davideandres95/quiz2">Proyecto en github</a>',
 		title: 'Quiz', autores: 'David de Andrés y Diego Martín Crespo',
@@ -19,6 +16,5 @@ router.get('/author', function(req, res, next){
 		foto2: '<img src="../public/images/diegomartin.jpg" alt="Diego Martín">'
 	})
 });
->>>>>>> origin/master
 
 module.exports = router;
