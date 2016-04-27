@@ -13,7 +13,7 @@ router.get('/author', function(req, res, next){
 		video1:'<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NBB8PDenGJM" frameborder="0" allowfullscreen></iframe>',
 
 		foto1: '<img src="/images/javier.jpg" alt="Club Deportivo Etsit">',
-		foto2: '<img src="/images/satelec.jpg" alt="Satelec 2016" style="width:200px; height:200px">
+		foto2: '<img src="/images/satelec.jpg" alt="Satelec 2016" >'
 	})
 });
 
